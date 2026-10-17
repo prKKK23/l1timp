@@ -2,6 +2,6 @@ static class Formatter
 {
     public static string Format(Account item)
     {
-        return item.Name;
+        return "ACTIVE: " + item.Name;
     }
 }
