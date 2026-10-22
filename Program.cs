@@ -2,9 +2,9 @@
 
 class Program
 {
-    static void Main(string[] args)
+    static void Main()
     {
-        Account[] items = new[]
+        Account[] items =
         {
             new Account("anna", true, "admin"),
             new Account("boris", false, "admin"),
